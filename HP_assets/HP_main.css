@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+/* File: HP_main.css */
+/* Author: Ron Fredericks, LectureMaker LLC */
+/* Last Updated: 7/10/2013 */
+
+p{font-size:14px;margin:0;padding:0;}
+h1{font-size:18px;margin:0;padding:0;}
+ 
+#myform
+{
+width:400px;
+border:2px solid grey;
+padding:14px;
+margin:0 auto;
+}
+
+#mygetimageform
+{
+width:400px;
+border:2px solid grey;
+padding:14px;
+margin:0 auto;
+}
+
+#myformsupport
+{
+width:400px;
+padding:14px;
+margin:0 auto;
+}
+
+.mystyle
+{
+border-bottom:1px solid grey;
+padding:5px 0 5px 0;
+margin:0 0 10px 0;
+}
+
+.myerror
+{ 
+font-size:16px;
+width:350px;
+padding:5px 5px 5px 5px;
+color:red;
+background-color:white;
+}
+
+#timeMsg
+{
+font-size:16px;
+width:350px;
+padding:5px 5px 5px 5px;
+background-color:white;
+}
+
+#myform label
+{
+font-size:13px;
+float:left;
+width:200px;
+text-align:right;
+display:block;
+}
+ 
+#myform span
+{
+font-size:11px;
+color:grey;
+width:200px;
+text-align:right;
+display:block;
+}
+ 
+#myform input
+{
+border:1px solid grey;
+font-family:verdana;
+font-size:12px;
+color:grey;
+height:16px;
+width:150px;
+margin:5px 0 20px 10px;
+}
+ 
+#myform button
+{
+clear:both;
+margin-left:150px;
+background:grey;
+color:#FFFFFF;
+border:solid 1px #666666;
+font-size:12px;
+cursor:pointer;
+}
+
+#myformsupport button
+{
+clear:both;
+margin-left:5px;
+margin-right:5px;
+background:grey;
+color:#FFFFFF;
+border:solid 1px #666666;
+font-size:12px;
+cursor:pointer;
+}
+
+#myformsupport ul
+{
+margin-left:-25px;
+list-style-image:url("HP_arrow.gif")
+}
+
+html,
+body {
+margin:0;
+padding:0;
+height:100%;
+}
+
+#container {
+min-height:100%;
+position:relative;
+}
+
+#header_ctr {
+color:white;
+text-align:center;
+background:#333;
+padding:10px;
+
+}
+
+#header_lft {
+color:white;
+float:left;
+background:#333;
+}
+
+#header_rt {
+color:white;
+float:right;
+background:#333;
+}
+
+#body {
+padding:10px;
+padding-bottom:20px;   /* Height of the footer */
+}
+
+#footer {
+color:white;
+text-align:center;
+position:absolute;
+bottom:0;
+width:100%;
+height:20px;   /* Height of the footer */
+background:#333;
+}
+
+#header a, #header a:visited, #footer a, #footer a:visited {
+color: #eee;
+}
